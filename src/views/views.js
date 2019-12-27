@@ -13,7 +13,7 @@ class Views extends React.Component {
         super()
 
         this.state ={
-            step: 1,
+            step: 3,
             username: '',
             password: '',
             state: '',
@@ -27,7 +27,7 @@ class Views extends React.Component {
     }
 
     update = (name, value) => {
-        this.setState({[name]:value}, () => console.log(this.state))
+        this.setState({[name]:value})
     }
 
     submit = () => {

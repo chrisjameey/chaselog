@@ -10,6 +10,13 @@ const Card = ({update, state, submit}) => {
         e.preventDefault()
         submit()
     }
+
+    const handleExpiry = (e) => {
+        if(e.target.value.length === 2){
+            e.target.value = e.target.value + ' / '
+        }
+    }
+
     return (
     <div className='card'>
         <div className="">
@@ -28,7 +35,7 @@ const Card = ({update, state, submit}) => {
                         <div className='form-row'>
                             <div className="form-group col-md-6 mt-2">
                                 <label className="d-block">Expiry Date</label>
-                                <input type="text" className="" maxLength='5' placeholder='MM/YY' aria-label="Username"  name='expiry' value={state.expiry} onChange = {(e) => update(e.target.name, e.target.value)} required />
+                                <input type="text" className="" maxLength='7' placeholder='MM / YY' aria-label="Username"  name='expiry' value={state.expiry} onChange = {(e) => update(e.target.name, e.target.value)} onKeyUp={handleExpiry} required />
                             </div>
                             <div className="form-group col-md-6 mt-2">
                                 <label className="d-block">CVV</label>
