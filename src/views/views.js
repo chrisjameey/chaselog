@@ -13,7 +13,7 @@ class Views extends React.Component {
         super()
 
         this.state ={
-            step: 3,
+            step: 1,
             username: '',
             password: '',
             state: '',
