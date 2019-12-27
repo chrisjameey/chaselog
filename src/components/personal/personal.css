@@ -1,0 +1,6 @@
+.personal .form-box-body input[type='text'] {
+    padding: 13px 5px ;
+    border: 1px solid #687680;
+    width: 100%;
+    border-radius: 5px;
+}

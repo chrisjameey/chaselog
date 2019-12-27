@@ -1,0 +1,82 @@
+.card {
+    background: #fafafa;
+}
+.form-box {
+    background: #fff;
+    border: 1px solid #C9CED2;
+    width: 35%;
+    margin: 50px auto;
+}
+
+.form-box-body {
+    width: 80%;
+    margin: 40px auto;
+}
+
+
+.form-box-body label {
+    font-size: 14px;
+}
+.form-box-body .input-group-text {
+    background: #fff;
+    border: 1px solid #687680;
+}
+.account .form-box-body input {
+    padding: 13px 0 13px 0 ;
+    border: 1px solid #687680;
+    border-left: none;
+    width: 85%;
+    border-radius: 0 5px 5px 0;
+}
+
+
+
+.form-box-body input:focus{
+    outline: none;
+    box-sizing: 0;
+}
+
+.form-box-body .form-control {
+    outline: none;
+    padding: 10px;
+}
+
+.form-box-body button {
+    width: 98%;
+    background: #008140;
+    padding: 13px 0 13px 0;
+    color: #fff;
+    font-size: 18px;
+}
+
+.form-box-body button:hover {
+    width: 98%;
+    color: #008140;
+    padding: 13px 0 13px 0;
+    background: #fff;
+    font-size: 18px;
+    border: 1px solid #008140;
+}
+
+
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: #687680;
+  box-shadow: 0 0px 1px #687680;
+  outline: none;
+}
