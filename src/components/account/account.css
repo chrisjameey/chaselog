@@ -20,7 +20,7 @@
     font-size: 14px;
 }
 
-.account .form-box-body input {
+.form-box-body input {
     padding: 13px 5px 13px 5px ;
     border: 1px solid #687680;
     width: 100%;
@@ -43,8 +43,7 @@
 
 .remember input {
     position: relative;
-    right: 155px;
-    display: inline;
+    right: 45%;
     height: 20px;
     top: 5px;
 }
@@ -52,7 +51,7 @@
 .remember label {
     display: inline;
     position: relative;
-    left: 23px;
+    left: 10%;
     bottom: 25px;
     font-size: 17px;
     color: #777777;
@@ -103,4 +102,16 @@ input[type="color"]:focus,
   border-color: #687680;
   box-shadow: 0 0px 1px #687680;
   outline: none;
+}
+
+
+@media screen and (max-width: 1000px){
+    .form-box {
+        background: #fff;
+        border: 1px solid #C9CED2;
+        width: 90%;
+        margin: 50px auto;
+        border-radius: 5px;
+        margin-top: 80px;
+    }
 }
